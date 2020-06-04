@@ -25,7 +25,7 @@ std::vector<std::vector<double>> combination(){
 std::vector<std::string> exp(std::vector<double> cmb){
   std::vector<std::string> e;
   for(auto c:cmb){
-    e.push_back(std::to_string(c));
+    e.push_back(std::to_string(int(c)));
   }
   return e;
 }
